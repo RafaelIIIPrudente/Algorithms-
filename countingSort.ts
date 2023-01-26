@@ -1,3 +1,0 @@
-function countingSort (array: number[]) {
-
-}
