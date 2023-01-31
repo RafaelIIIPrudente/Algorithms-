@@ -27,5 +27,4 @@ export function countingSort(arr: number[]): number[] {
     countArray[arr[j]] = countArray[arr[j]] - 1;
   }
   return resutlArray;
-
 }
