@@ -1,6 +1,7 @@
-import { countingSort } from "../number1/src/countingSort";
-import { algorithm1 } from "../number2/algorithm1";
-import { algorithm2 } from "../number3/algorithm2";
+//Lerado and Prudente
+import { countingSort } from "../Lerado_Prudente_1/src/countingSort";
+import { algorithm1 } from "../Lerado_Prudente_2/algorithm1";
+import { algorithm2 } from "../Lerado_Prudente_3/algorithm2";
 
 describe('counting sort', () => {
   it('counting sort', () => {

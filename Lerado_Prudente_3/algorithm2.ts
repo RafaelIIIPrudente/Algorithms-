@@ -1,9 +1,13 @@
+//Lerado and Prudente
 export function algorithm2 (input: number) {
   if (input <= 1) {
     console.log("Wrong given")
   } else {
+    //outpur array of numbers
     let output: number[] = [];
-    let k = (input - 2) / 2 
+
+    //math.floor for removing the bug for inputting odd numbers
+    let k = Math.floor((input - 2) / 2);
 
     let integerList: boolean[] = new Array(k + 1).fill(true);
 
@@ -15,8 +19,9 @@ export function algorithm2 (input: number) {
         j += 1;
       }
     }
+
     if (input > 2) {
-      output.push(2)
+      output.push(2);
     }
 
     for (let i = 1; i <= k; i++) {
@@ -24,12 +29,11 @@ export function algorithm2 (input: number) {
         output.push(2 * i + 1);
       }
     }
-
     return output;
-
   }
 }
-let try1 = algorithm2(100)
+
+let try1 = algorithm2(11);
 console.log(try1);
 
 

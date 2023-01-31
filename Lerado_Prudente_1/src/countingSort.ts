@@ -1,3 +1,4 @@
+//Lerado and Prudente
 export function countingSort(arr: number[]): number[] {
   //Find the maximum element in arr
   let highestNumber = Math.max(...arr); //k
