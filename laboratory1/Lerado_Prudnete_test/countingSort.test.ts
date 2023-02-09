@@ -1,5 +1,5 @@
 //Lerado and Prudente
-import { countingSort } from "../Lerado_Prudente_1/src/countingSort";
+import { countingSort } from "../src/countingSort";
 import { algorithm1 } from "../Lerado_Prudente_2/algorithm1";
 import { algorithm2 } from "../Lerado_Prudente_3/algorithm2";
 
