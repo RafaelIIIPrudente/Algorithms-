@@ -1,4 +1,4 @@
-export default function binarySearch(array: number[], target: number): number {
+export function binarySearch(array: number[], target: number): number {
   let leftmost: number = 0;
   let righmost: number = array.length - 1;
 
@@ -19,5 +19,20 @@ export default function binarySearch(array: number[], target: number): number {
   return - 1;
 }
 
-let try1 = binarySearch([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 10)
-console.log(try1)
+var array: number[] = [];
+for (var i = 1; i <= 1024; i++) {
+  array.push(i);
+}
+console.log(array)
+
+let numberOfTrials = 100
+for (var i = 1; i <= numberOfTrials; i++) {
+  let target = Math.ceil(Math.random() * i);
+  
+  
+  console.time('Execution Time');
+  console.log(binarySearch(array,target))
+  binarySearch(array, target);
+  console.timeEnd('Execution Time');
+}
+
